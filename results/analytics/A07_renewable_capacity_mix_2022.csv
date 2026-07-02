@@ -1,0 +1,11 @@
+iso3,area_name,renew_capacity_w_pc,solar_pct,wind_pct,hydro_pct
+ISL,Iceland,7722.0,0.2,0.1,73.4
+NOR,Norway,7296.0,0.8,13.0,86.0
+SWE,Sweden,3606.0,6.8,38.3,43.1
+BTN,Bhutan,2985.0,0.0,0.0,99.9
+CAN,Canada,2779.0,5.0,14.3,78.2
+AUT,Austria,2620.0,15.2,16.0,63.9
+CHE,Switzerland,2257.0,22.0,0.4,76.4
+FIN,Finland,2183.0,4.9,46.4,26.2
+DNK,Denmark,2102.0,25.3,57.3,0.0
+AUS,Australia,1865.0,60.8,21.6,15.8

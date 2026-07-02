@@ -1,0 +1,13 @@
+check_id,severity,description,failed_rows
+DQ01,ERROR,staging rows not reconciled with fact rows,0
+DQ02,ERROR,duplicate natural keys in staging,0
+DQ03,ERROR,percentage indicators outside 0-100,0
+DQ04,ERROR,negative observation values,0
+DQ05,ERROR,indicator codes with more than one label,0
+DQ06,ERROR,area names still containing mojibake,0
+DQ07,ERROR,capacity: all-renewables != sum of sources (tol 2.5 W/capita),0
+DQ08,ERROR,finance: all-renewables != sum of sources (tol 0.05 USD m),0
+DQ09,ERROR,modern-renewable share exceeds total renewable share,0
+DQ11,INFO,electricity access: rural > urban observations,222
+DQ12,INFO,observations flagged missing by source (status O),2512
+DQ10,WARN,"electricity access: national total outside [min,max] of urban/rural",19
