@@ -86,7 +86,7 @@ docs/       DATA_DICTIONARY.md, DATA_SOURCES.md, DESIGN.md, PERFORMANCE.md
 
 Design choices and trade-offs are in [`docs/DESIGN.md`](docs/DESIGN.md).
 
-## Findings
+## Key Findings
 
 These come from the full dataset. The tables are in [`results/analytics/`](results/analytics/).
 
@@ -129,14 +129,6 @@ All 9 ERROR rules pass with 0 failures. The source flags 2,512 values as missing
 GitHub Actions repeats the sample run on every push.
 
 The files in `results/` were produced by `tests/crosscheck.py` from the full file. To confirm that PostgreSQL gives the same answers on the full file, save the CSV as `data/raw/WB_SE4ALL.csv`, run `make all` and then `make compare`.
-
-## Limitations and next steps
-
-1. The list of regional aggregates is written into the code. Take it from World Development Indicators metadata instead.
-2. Add population weights, so country figures can roll up to regions.
-3. Forecast the year each country reaches universal access, with uncertainty. The linear projection in `sql/08_postgres_advanced.sql` is a baseline only.
-4. Model access against income and finance with panel regression. Look for groups of countries with similar energy poverty.
-5. Add incremental loads and a scheduler such as Airflow or dbt, and publish the marts to a dashboard.
 
 ## Data and licence
 

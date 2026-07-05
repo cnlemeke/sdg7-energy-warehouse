@@ -1,7 +1,4 @@
-"""Build README figures from <results>/country_year.csv (exported by sql/11_export_results.sql).
 
-Usage: python python/make_figures.py [--results results] [--figures figures]
-"""
 import argparse, pathlib
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
