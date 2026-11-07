@@ -1,7 +1,5 @@
 # SE4ALL Postgres Warehouse: a tested PostgreSQL data warehouse for SDG 7 energy data
 
-![CI](https://github.com/cnlemeke/sdg7-energy-warehouse/actions/workflows/ci.yml/badge.svg)
-
 This project turns the World Bank Sustainable Energy for All database (electricity access, clean cooking, renewables, energy efficiency and climate finance, 1990 to 2022, 239 areas) into a PostgreSQL star schema with data quality rules, analytics and tests.
 
 It is a portfolio project in data engineering and analytics. Everything runs from plain SQL scripts and a few Python checks.
@@ -136,4 +134,4 @@ Data: World Bank, Sustainable Energy for All database, licensed CC BY 4.0. Sourc
 
 ## Contact
 
-Chigozie Edwin Nlemeke (Chiggy). GitHub: [cnlemeke](https://github.com/cnlemeke).
+Chigozie Nlemeke. GitHub: [cnlemeke](https://github.com/cnlemeke).
